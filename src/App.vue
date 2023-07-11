@@ -5,5 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import { IonApp, IonRouterOutlet } from '@ionic/vue';
+import { IonApp, IonRouterOutlet } from "@ionic/vue";
+import vconsole from "vconsole";
+const myConsole = new vconsole();
 </script>
